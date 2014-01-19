@@ -1,0 +1,29 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="style.css">
+<script src="myFunctions.js"></script>
+<script>
+	
+
+</script>
+</head>
+<body onload="setImages()">
+
+<div id="container" >
+
+    <div class="row">MENU </div>
+	<div class="row"> 
+			<h3 style="float: left">select level</h3>
+			<select style="width: 40px" onchange="loadLevel(this.options[this.selectedIndex].text)">
+			  <option value="1">...</option>
+			  <option value="5">5</option>
+			  <option value="6">6</option>
+			  <option value="7">7</option>
+			  <option value="8">8</option>
+			</select>
+	</div>
+	
+	<div class="row"> </div>
+</div>
+<body>
+</html>

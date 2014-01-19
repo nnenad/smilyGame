@@ -1,0 +1,27 @@
+.cell{
+	background-color: yellow;
+	height: 45px;
+	width:  45px;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+#container{
+	margin: 0px auto;
+	height: 230px;
+	width:  240px;
+}
+
+#movesCont{
+	float: right;
+	margin: 2px 18 0 0;
+}
+
+#button{
+}
+
+.row{
+	margin: 0px auto;
+	height: 30px;
+	width: 150px;
+}

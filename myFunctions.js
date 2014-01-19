@@ -120,6 +120,7 @@ function loadLevel(level){
 	document.write("</div>");
 	document.getElementById('container').style.height = ((levelN * 45) + 5);
 	document.getElementById('container').style.width = ((levelN * 45) + 15);
+	document.write("<h1>ajde po zito</h1>");
 	this.setImages();
 	}
 }
